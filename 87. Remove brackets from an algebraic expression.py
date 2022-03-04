@@ -8,3 +8,6 @@ def remove_brackets(expression):
         else:    
             str += i
     return str
+
+expression = '(a-b)+[c*d]+{e/f}'
+print(remove_brackets(expression))
