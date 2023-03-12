@@ -6,7 +6,7 @@ if month == 2 and ((year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)):
     print("Number of days is 29")
 elif month == 2:
     print("Number of days is 28")
-elif month == 1 and month == 3 and month == 5 and month == 7 and month == 8 and month == 10 and month == 12:
+elif month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
     print("Number of days is 31")
 else:
     print("Number of days is 30")
